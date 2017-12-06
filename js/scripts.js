@@ -2,7 +2,7 @@ function baseConversion(number, base) {
   if (!number || !base) {
     alert("Please enter numbers");
   } else {
-    alert(number + ", " + base);
+    return number.toString(2);
   }
 }
 
