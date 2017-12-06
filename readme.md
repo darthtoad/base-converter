@@ -16,6 +16,7 @@ _This program will take a users inputted number and convert it into a base of th
 | **Program Converts Number to Binary**| "3" | "11" |
 | **Program Recognizes a Number's Base Provided by User**| "11011101" | "2" |
 | **Program Converts Number to Other Base Provided by User**| "5,2" | "101" |
+| **Program Catches Bases Less Than 2 or Over 36**| "2, 213212" | "Enter a base between 2 and 36" |
 
 ## Setup/Installation Requirements
 
