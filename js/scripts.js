@@ -1,5 +1,9 @@
 function baseConversion(number, base) {
-
+  if (!number || !base) {
+    alert("Please enter numbers");
+  } else {
+    alert(number + ", " + base);
+  }
 }
 
 
@@ -9,10 +13,10 @@ function baseConversion(number, base) {
 $(document).ready(function(){
   $("#theForm").submit(function(event) {
     event.preventDefault();
-    var input = $("#number").val();
-    var base = $("#base").val();
+    var number = parseFloat($("#number").val());
+    var base = parseFloat($("#base").val());
     $("#result").empty();
-    var result = baseConversion(input, base);
+    var result = baseConversion(number, base);
     $("#result").append(result);
-  })
-})
+  });
+});
